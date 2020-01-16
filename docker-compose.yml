@@ -1,0 +1,13 @@
+version: '3'
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - SYNAPSE_UID
+      - SYNAPSE_PWD
+      - SYNAPSE_DATABASE
+      - SYNAPSE_SERVER
+    volumes:
+      - ./:/code
