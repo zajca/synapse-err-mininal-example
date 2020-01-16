@@ -10,11 +10,11 @@ purpose of this repository is to contain common use cases and simplify new stora
 
 ### Install deps
 
-`docker-composer run dev composer install`
+`docker-compose run dev composer install`
 
 ### Run
 
-`docker-composer run dev`
+`docker-compose run dev`
 
 
 
